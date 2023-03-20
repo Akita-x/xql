@@ -24,8 +24,10 @@ int main(void) {
           printf("我是父进程,id:%d\n",getpid());
           count++;
       }
+      printf("这是我改变后的main.c\n");
       printf("统计结果是:%d\n",count);
       exit(0);
+    
       
     return 0;
 }
