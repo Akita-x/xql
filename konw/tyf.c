@@ -27,6 +27,6 @@ int main()
 
     printf("max = %d\n",(*C)(10,12));
     printf("max = %d",C(15,10));
-
+    printf("进行了bug修复\n");
     return 0;
 }

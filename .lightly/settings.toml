@@ -1,0 +1,10 @@
+ports = []
+[languages.clang]
+language = "clang"
+[languages.clang.run."main.c"]
+name = "main.c"
+path = "/workspace/CProject/main.c"
+
+[languages.clang.run."tyf.c"]
+name = "tyf.c"
+path = "/workspace/CProject/konw/tyf.c"
